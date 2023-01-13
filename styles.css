@@ -1,0 +1,40 @@
+/* color???
+    #0b090a
+    #161a1d
+    #660708
+    #a4161a
+    #ba181b
+    #e5383b
+    #b1a7a6
+    #d3d3d3
+    #f5f3f4
+    #ffffff
+*/
+
+body {
+  font-family: sans-serif;
+  background-color: #161a1d;
+  color: #fff;
+}
+
+.nav-container {
+  margin: 2rem;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 4rem;
+}
+
+.heading-name {
+  font-size: 3rem;
+}
+
+.heading-text {
+  font-size: 1.5rem;
+}
