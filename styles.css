@@ -1,4 +1,4 @@
-/* color???
+/* colors???
     #0b090a
     #161a1d
     #660708
@@ -11,30 +11,59 @@
     #ffffff
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: inherit; */
+}
+
+html {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   background-color: #161a1d;
   color: #fff;
-}
-
-.nav-container {
   margin: 2rem;
 }
 
+/* Genral styles */
+.container {
+  padding: 20rem 3rem;
+}
+
+.text {
+  font-size: 1.7rem;
+  line-height: 4.5rem;
+}
+/*  */
+
+/* nav links */
 .links {
+  font-size: 1.4rem;
   list-style: none;
   display: flex;
   justify-content: space-between;
+  margin: 3rem;
 }
 
-.heading {
-  font-size: 4rem;
-}
-
+/* Header section */
 .heading-name {
-  font-size: 3rem;
+  color: #e5383b;
 }
 
 .heading-text {
+  font-size: 6rem;
+  line-height: 6.5rem;
+}
+
+.span-text {
+  color: #8b8d8e;
   font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.portfolio {
+  color: #e5383b;
 }
