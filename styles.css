@@ -60,8 +60,18 @@ body {
 
 .span-text {
   color: #8b8d8e;
-  font-size: 1.5rem;
-  line-height: 3rem;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+
+.span-animation {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 
 .portfolio {
