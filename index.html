@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
     <title>Portfolio</title>
   </head>
   <body>
@@ -18,38 +19,98 @@
       </nav>
       <div class="container">
         <h2 class="heading-text">Hello, I am</h2>
-        <h1 class="heading-text heading-name">David Escobar</h1>
+        <h1 class="heading-name heading-text">David Escobar</h1>
+
         <p class="heading-text">a Full-Stack Developer</p>
-        <span class="span-text">Languages: Java, JavaScript, SQL</span>
+        <span class="span-text"
+          >Languages: Java, JavaScript, SQL, PostgreSQL, Git
+        </span>
         <br />
         <span class="span-text">
           Loading:
-          <span class="span-text span-animation">React, Spring...</span></span
+          <span class="span-text span-animation"
+            >React, Spring Boot...</span
+          ></span
         >
       </div>
     </header>
 
-    <section class="my-portfolio">
-      <div class="container">
-        <h2 class="heading-text portfolio">My Portfolio</h2>
-        <p class="text">
-          A small selection of projects I have built myself and with the help of
-          others.
-        </p>
+    <section class="projects">
+      <h2 class="heading-name heading-text">Personal Projects</h2>
+      <div class="projects-grid">
+        <div class="col">
+          <div class="project">
+            <h2 class="project-title">Vendo-Matic 800</h2>
+            <img
+              class="vm-gif"
+              src="https://media4.giphy.com/media/fph1vX16qKDkiz7BnI/giphy.gif?cid=790b7611b80c108f689c67c7e358ec75bc2791544189f1c3&rid=giphy.gif&ct=g"
+              alt="Screenshot of project 1"
+            />
+            <div class="project-description">
+              <p>
+                Virtual vending machine application with command-line interface
+                allowing users to deposit money, choose a product, and return
+                the correct change. Inventory is loaded via a text file and
+                transactions are also logged to a text file.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="live-demo-link">Live Demo</a>
+              <a href="code-repository-link">Code Repository</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="project">
+            <h2 class="project-title">Bankist</h2>
+            <img
+              class="bankist-img"
+              src="imgs\bankist.png"
+              alt="Screenshot of project 2"
+            />
+            <div class="project-description">
+              <p>
+                This is a landing page created for a banking application that
+                was taught in the JavaScript course I am taking.
+              </p>
+            </div>
+            <div class="project-links">
+              <a href="live-demo-link">Live Demo</a>
+              <a href="code-repository-link">Code Repository</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="project">
+            <h2 class="project-title">Project 3 Title</h2>
+            <img src="screenshot3.jpg" alt="Screenshot of project 3" />
+            <div class="project-description">
+              <p>A brief overview of project 3.</p>
+            </div>
+            <div class="project-links">
+              <a href="live-demo-link">Live Demo</a>
+              <a href="code-repository-link">Code Repository</a>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="about-me">
       <div class="container">
-        <h2 class="heading-text portfolio">About Me</h2>
-        <p class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
-          odit assumenda soluta nemo, rem maiores facere, voluptates saepe
-          optio, perspiciatis ipsam officia! Inventore soluta accusantium ut
-          nostrum ea sunt natus.
+        <h2 class="heading-text about__me-heading">About Me</h2>
+        <p class="about__me-text">
+          I am an aspiring developer who is taking a course in Java Back-End
+          Development by Merit America which I found through my employer Amazon,
+          and I am learning Front-End Development on my own time through Udemy
+          currently taking a course called "The Complete JavaScript Course 2023:
+          From Zero to Expert! ". I also took a web development class at a
+          community college when I used to attend and there I learned HTML and
+          CSS. Since I started my journey I have learned many new skills and
+          technologies and hope to continue making improvements and learning
+          many new skills from other developers around the world.
         </p>
       </div>
     </section>
-    <script src="script.js"></script>
   </body>
 </html>
