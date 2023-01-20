@@ -105,10 +105,12 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .bankist-img {
   width: 530px;
   height: auto;
 }
+
 /* About Me */
 .about__me-heading {
   color: #e5383b;
