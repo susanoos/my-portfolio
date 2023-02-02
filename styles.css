@@ -92,7 +92,9 @@ body {
 }
 
 .project-title {
-  margin-top: 10px;
+  color: #e5383b;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .project-description {
