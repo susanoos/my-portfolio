@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c1039f3d35.js"
+      crossorigin="anonymous"
+    ></script>
     <script defer src="script.js"></script>
     <title>Portfolio</title>
   </head>
@@ -12,16 +16,21 @@
     <header>
       <nav class="nav nav-container">
         <ul class="links">
-          <li>Portfolio</li>
-          <li>About Me</li>
-          <li>Contact Me</li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#contact">Contact Me</a></li>
         </ul>
       </nav>
       <div class="container">
         <h2 class="heading-text">Hello, I am</h2>
         <h1 class="heading-name heading-text">David Escobar</h1>
-
         <p class="heading-text">a Full-Stack Developer</p>
+        <div>
+          <span class="text">Download my Resume: </span>
+          <a href="David_Escobar_Resume.pdf" download="David_Escobar.pdf"
+            ><i class="fa-solid fa-download icon"></i
+          ></a>
+        </div>
         <span class="span-text"
           >Languages: Java, JavaScript, SQL, PostgreSQL, Git
         </span>
@@ -35,76 +44,13 @@
       </div>
     </header>
 
-    <section class="projects container">
+    <section class="container" id="portfolio">
       <h2 class="heading-name heading-text">Personal Projects</h2>
-      <div class="projects-grid">
-        <div class="col">
-          <div class="project">
-            <h2 class="project-title"></h2>
-            <img
-              class="vm-gif"
-              src="https://media4.giphy.com/media/fph1vX16qKDkiz7BnI/giphy.gif?cid=790b7611b80c108f689c67c7e358ec75bc2791544189f1c3&rid=giphy.gif&ct=g"
-              alt="Screenshot of project 1"
-            />
-            <div class="project-description">
-              <p>
-                Virtual vending machine application with command-line interface
-                allowing users to deposit money, choose a product, and return
-                the correct change. Inventory is loaded via a text file and
-                transactions are also logged to a text file.
-              </p>
-            </div>
-            <div class="project-links">
-              <a href="live-demo-link">Live Demo</a>
-              <a href="code-repository-link">Code Repository</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="project">
-            <h2 class="project-title">Bankist</h2>
-            <img
-              class="img"
-              src="imgs\bankist.png"
-              alt="Screenshot of project 2"
-            />
-            <div class="project-description">
-              <p>
-                This is a web-page created for a banking application that where
-                I learned various array methods. You are able to log-in using
-                the user 'JS' and password '1111'.
-              </p>
-            </div>
-            <div class="project-links">
-              <a href="live-demo-link">Live Demo</a>
-              <a href="code-repository-link">Code Repository</a>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="project">
-            <h2 class="project-title">Pokedex</h2>
-            <img
-              class="img"
-              src="imgs\pokedex.png"
-              alt="Screenshot of project 3"
-            />
-            <div class="project-description">
-              <p>
-                A simple application which fetches data about desired pokémon.
-              </p>
-            </div>
-            <div class="project-links">
-              <a href="live-demo-link">Live Demo</a>
-              <a href="code-repository-link">Code Repository</a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div class="projects-grid"></div>
     </section>
 
-    <section class="about-me">
-      <div class="container">
+    <section class="about-me container" id="about-me">
+      <div>
         <h2 class="heading-text about__me-heading">About Me</h2>
         <p class="about__me-text">
           I am an aspiring developer who is taking a course in Java Back-End
