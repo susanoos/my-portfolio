@@ -173,3 +173,50 @@ a {
   font-size: 1.7rem;
   line-height: 3rem;
 }
+
+@media (max-width: 767px) {
+  .container {
+    padding: 8rem 1rem;
+  }
+
+  .icon {
+    font-size: 1rem;
+  }
+
+  .text {
+    font-size: 1rem;
+    line-height: 3rem;
+  }
+  .links {
+    font-size: 0.8rem;
+    margin: 1rem;
+  }
+  .heading-text {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  .span-text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .project-title {
+    font-size: 1.6rem;
+  }
+
+  .project-description {
+    font-size: 0.7rem;
+    line-height: 1rem;
+  }
+
+  .img {
+    height: 200px;
+  }
+  .about__me-text {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
