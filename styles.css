@@ -189,7 +189,7 @@ a {
   line-height: 3rem;
 }
 
-/* Media query for laptops */
+/* Laptops/tablets */
 @media (max-width: 1440px) {
   .icon {
     font-size: 1.4rem;
