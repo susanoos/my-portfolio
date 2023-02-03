@@ -182,12 +182,14 @@ a {
 /* About Me */
 .about__me-heading {
   color: #e5383b;
+  margin-bottom: 1rem;
 }
 .about__me-text {
   font-size: 1.7rem;
   line-height: 3rem;
 }
 
+/* Phones */
 @media (max-width: 767px) {
   .container {
     padding: 8rem 1rem;
