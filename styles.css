@@ -190,7 +190,7 @@ a {
 }
 
 /* Laptops/tablets */
-@media screen and (max-width: 2560px) {
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
   .icon {
     font-size: 1.4rem;
   }
