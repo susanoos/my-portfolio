@@ -189,6 +189,38 @@ a {
   line-height: 3rem;
 }
 
+/* Media query for laptops */
+@media (max-width: 1440px) {
+  .icon {
+    font-size: 1.4rem;
+  }
+
+  .container {
+    padding-top: 4rem;
+  }
+
+  .header-container {
+    padding-top: 4rem;
+  }
+
+  .heading-text {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+
+  .resume-icon {
+    font-size: 2.5rem;
+  }
+
+  .links {
+    font-size: 1.4rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* Phones */
 @media (max-width: 767px) {
   .container {
