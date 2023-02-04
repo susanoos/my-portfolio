@@ -47,11 +47,16 @@ body {
 /*  */
 
 /* nav links */
+
+.nav-container {
+}
+
 .links {
-  font-size: 1.6rem;
-  list-style: none;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  list-style: none;
   margin: 3rem;
 }
 
@@ -63,10 +68,8 @@ a {
 
 .socials-container {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 0.6rem;
 }
 
 /* Header section */
