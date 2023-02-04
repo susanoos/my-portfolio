@@ -243,6 +243,10 @@ a {
     font-size: 0.8rem;
     margin: 1rem;
   }
+
+  .header-container {
+    padding-top: 1rem;
+  }
   .heading-text {
     font-size: 3rem;
     line-height: 3.5rem;
